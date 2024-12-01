@@ -1,0 +1,117 @@
+.container-default{
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(238, 234, 234);
+    display: flex;
+    flex-direction: column;
+}
+
+.dv-principal{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.btn, .form-control{
+    height: 40px;
+}
+
+.btn{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+.form-control{
+    width: 200px;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    background-color: #0d6efd;
+}
+
+.link-header{
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.dv-linha1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-itens{
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-itens > div {
+    height: 100%;
+}
+
+.dv-itens01{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.dv-itens02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dv-itens02 > .btn{
+    margin-left: 10px;
+}
+
+.text-code{
+    font-size: 12px;
+}
+
+.mb-3 > .form-control{
+    width: 500px;
+}
+
+.dv-btns-adicionar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dv-btns-adicionar > .btn-primary {
+    margin: 20px;
+}
+
+.dv-buscar{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dv-buscar > .form-control{
+    margin-right: 10px;
+}
